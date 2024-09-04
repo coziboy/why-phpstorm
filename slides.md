@@ -182,3 +182,5 @@ layout: end
 # Thank You!
 
 Any Questions?
+
+<PoweredBySlidev mt-10 />
