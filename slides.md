@@ -25,12 +25,17 @@ PhpStorm is an IDE that actually ‘gets’ your code. It provides on-the-fly er
 
 Features:
 
-- Intelligent code editor with advanced code completion and error prevention
-- Powerful debugging and profiling tools for PHP applications
-- Seamless integration with version control systems like Git
-- Smart code navigation and refactoring capabilities
-- Extensive support for HTML, CSS, and JavaScript development
-- Database tools for efficient SQL editing and management
+<v-click>- Intelligent code editor with advanced code completion and error prevention</v-click>
+<br>
+<v-click>- Powerful debugging and profiling tools for PHP applications</v-click>
+<br>
+<v-click>- Seamless integration with version control systems like Git</v-click>
+<br>
+<v-click>- Smart code navigation and refactoring capabilities</v-click>
+<br>
+<v-click>- Extensive support for HTML, CSS, and JavaScript development</v-click>
+<br>
+<v-click>- Database tools for efficient SQL editing and management</v-click>
 
 ---
 layout: cover
@@ -45,8 +50,9 @@ background: https://cover.sli.dev
 
 PhpStorm is renowned for its zero-configuration code completion, which is powered by the IntelliJ platform. It provides code completion suggestions as you type, based on the context of your code.
 
-Some of the code completion features include:
+<v-click>Some of the code completion features include:</v-click>
 
+<v-click>
 ````md magic-move
 ```php {*|1-2|4-8}
 // Start typing a class name
@@ -76,16 +82,22 @@ class User {
 }
 ```
 ````
+</v-click>
 ---
 
 # Deep Code Understanding and Refactoring
 
-PhpStorm provides deep code understanding and refactoring capabilities, which help you maintain your codebase with ease. Some of the refactoring features include:
+PhpStorm provides deep code understanding and refactoring capabilities, which help you maintain your codebase with ease.
 
-- Rename refactoring
-- Move refactoring
-- Extract method refactoring
-- Safe delete refactoring
+<v-click>Some of the refactoring features include:</v-click>
+<br>
+<v-click>- Rename refactoring</v-click>
+<br>
+<v-click>- Move refactoring</v-click>
+<br>
+<v-click>- Extract method refactoring</v-click>
+<br>
+<v-click>- Safe delete refactoring</v-click>
 
 ---
 
@@ -93,12 +105,15 @@ PhpStorm provides deep code understanding and refactoring capabilities, which he
 
 PhpStorm comes with a set of database tools that allow you to work with databases directly from the IDE. You can view and edit database schemas, run queries, and manage database connections without leaving the IDE.
 
-Some of the database tools features include:
-
-- Database navigator
-- SQL editor
-- Database console
-- Data editor
+<v-click>Some of the database tools features include:</v-click>
+<br>
+<v-click>- Database navigator</v-click>
+<br>
+<v-click>- SQL editor</v-click>
+<br>
+<v-click>- Database console</v-click>
+<br>
+<v-click>- Data editor</v-click>
 
 ---
 layout: cover
@@ -113,11 +128,13 @@ background: https://cover.sli.dev
 
 The Laravel Idea plugin in PHPStorm is a specialized plugin designed to enhance the development experience for Laravel projects within PHPStorm. It offers a variety of features that streamline and simplify Laravel development by providing intelligent code assistance
 
-Some of the features of Laravel IDEA include:
-
-- Eloquent model support: Provides code completion, navigation, and refactoring for Eloquent models
-- Laravel-specific code generation: Generates Laravel-specific code snippets, such as routes, controllers, and views
-- Navigation to Laravel-specific files: Allows you to navigate to Laravel-specific files, such as routes, controllers, and views, with ease
+<v-click>Some of the features of Laravel IDEA include:</v-click>
+<br>
+<v-click>- Eloquent model support: Code completion, navigation, and refactoring for Eloquent models</v-click>
+<br>
+<v-click>- Laravel-specific code generation: Generates Laravel-specific code snippets</v-click>
+<br>
+<v-click>- Navigation to Laravel-specific files: Navigate to Laravel-specific files with ease</v-click>
 
 ---
 
@@ -125,12 +142,15 @@ Some of the features of Laravel IDEA include:
 
 The Pest plugin in PHPStorm is designed to support the Pest testing framework, which is a testing library for PHP that emphasizes simplicity and a human-readable syntax. This plugin enhances the testing experience by integrating Pest’s features into the PHPStorm IDE.
 
-Some of the features of PEST Plugin include:
-
-- Test execution: Allows you to run Pest tests directly from the PHPStorm interface. You can execute individual tests, test files, or entire test suites with ease.
-- Test results and reporting: Displays test results within the IDE, showing which tests passed, failed, or were skipped. It provides detailed output and error messages to help you debug failed tests.
-- Code completion: Provides code completion for Pest’s syntax, including assertions, test functions, and custom test methods, making it easier to write and maintain tests.
-- Navigation: Simplifies navigating between test cases, test definitions, and the code being tested. You can quickly jump from a test to the corresponding code or vice versa.
+<v-click>Some of the features of PEST Plugin include:</v-click>
+<br>
+<v-click>- Test execution: Allows you to run Pest tests directly from the PHPStorm interface</v-click>
+<br>
+<v-click>- Test results and reporting: Displays test results within the IDE</v-click>
+<br>
+<v-click>- Code completion: Provides code completion for Pest’s syntax</v-click>
+<br>
+<v-click>- Navigation: Simplifies navigating between test cases, test definitions, and the code being tested</v-click>
 
 ---
 
@@ -138,11 +158,13 @@ Some of the features of PEST Plugin include:
 
 The Laravel Query plugin in PHPStorm is a tool specifically designed to assist with writing and managing complex Laravel Eloquent queries. This plugin enhances the development experience by providing features that make it easier to work with Laravel’s ORM (Object-Relational Mapping) system.
 
-Some of the features of Laravel Query include:
-
-- Query Builder code completion: Provides code completion for Laravel Query Builder methods, making it easier to write complex queries.
-- Query Builder navigation: Allows you to navigate between query builder methods and their definitions, helping you understand how queries are constructed.
-- Query Builder refactoring: Provides refactoring capabilities for query builder methods, allowing you to rename, move, or extract query builder code with ease.
+<v-click>Some of the features of Laravel Query include:</v-click>
+<br>
+<v-click>- Query Builder code completion: Provides code completion for Laravel Query Builder methods</v-click>
+<br>
+<v-click>- Query Builder navigation: Allows you to navigate between query builder methods and their definitions</v-click>
+<br>
+<v-click>- Query Builder refactoring: Provides refactoring capabilities for query builder methods</v-click>
 
 ---
 
@@ -150,12 +172,15 @@ Some of the features of Laravel Query include:
 
 Bitbucket Pull Requests is a PhpStorm plugin that provides support for Bitbucket pull requests. It enhances the Bitbucket pull request experience by providing code completion, navigation, and refactoring capabilities for Bitbucket pull requests.
 
-Some of the features of Bitbucket Pull Requests include:
-
-- Review pull requests directly from the IDE
-- Comment on pull requests
-- Create new pull requests
-- Approve, decline, or merge pull requests
+<v-click>Some of the features of Bitbucket Pull Requests include:</v-click>
+<br>
+<v-click>- Review pull requests directly from the IDE</v-click>
+<br>
+<v-click>- Comment on pull requests</v-click>
+<br>
+<v-click>- Create new pull requests</v-click>
+<br>
+<v-click>- Approve, decline, or merge pull requests</v-click>
 
 ---
 
@@ -163,11 +188,13 @@ Some of the features of Bitbucket Pull Requests include:
 
 The Laravel Tinker plugin in PHPStorm is designed to enhance the experience of using Laravel’s Tinker, a powerful REPL (Read-Eval-Print Loop) for interacting with your Laravel application from the command line. Tinker allows developers to run PHP code within the context of the Laravel application, making it useful for testing, debugging, and performing quick tasks.
 
-Some of the features of Laravel Tinker include:
-
-- Tinker console: Provides an interactive console within the PHPStorm interface, allowing you to run PHP code and interact with your Laravel application.
-- Code completion: Offers code completion for Laravel-specific classes, methods, and variables, making it easier to write and execute code in the Tinker console.
-- History navigation: Allows you to navigate through previous commands and results in the Tinker console, making it easier to review and reuse code snippets.
+<v-click>Some of the features of Laravel Tinker include:</v-click>
+<br>
+<v-click>- Tinker console: Provides an interactive console within the PHPStorm interface</v-click>
+<br>
+<v-click>- Code completion: Offers code completion for Laravel-specific classes, methods, and variables</v-click>
+<br>
+<v-click>- History navigation: Allows you to navigate through previous commands and results in the Tinker console</v-click>
 
 ---
 
