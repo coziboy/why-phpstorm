@@ -23,8 +23,8 @@ By: Andreas Asatera Sandi Nofa
 
 PhpStorm is an IDE that actually ‘gets’ your code. It provides on-the-fly error prevention, best autocompletion & code refactoring, zero configuration debugging, and an extended HTML, CSS, and JavaScript editor.
 
-Features:
-
+<v-click>Features:</v-click>
+<br>
 <v-click>- Intelligent code editor with advanced code completion and error prevention</v-click>
 <br>
 <v-click>- Powerful debugging and profiling tools for PHP applications</v-click>
@@ -54,7 +54,12 @@ PhpStorm is renowned for its zero-configuration code completion, which is powere
 
 <v-click>
 ````md magic-move
-```php {*|1-2|4-8}
+```php
+// Start typing a class name
+use Carbon\Carbon; // PHPStorm will suggest 'Carbon\Carbon'
+```
+
+```php {4-8}
 // Start typing a class name
 use Carbon\Carbon; // PHPStorm will suggest 'Carbon\Carbon'
 
@@ -65,7 +70,26 @@ function getCurrentDate() {
 }
 ```
 
-```php {*|5-8|10-13}
+```php
+// Inside a class
+class User {
+    private $name;
+}
+```
+
+```php {5-8}
+// Inside a class
+class User {
+    private $name;
+    
+    // Start typing the constructor method
+    public function __construct($name) {
+        $this->name = $name; // PHPStorm will suggest '$name' as you type
+    }
+}
+```
+
+```php {10-13}
 // Inside a class
 class User {
     private $name;
